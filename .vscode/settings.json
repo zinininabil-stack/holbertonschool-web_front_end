@@ -1,0 +1,8 @@
+{
+  // Force Live Server to open pages with Google Chrome on macOS.
+  // Two key variants are included to cover possible extension key-name differences.
+  "liveServer.settings.CustomBrowser": "Google Chrome",
+  "liveServer.settings.customBrowser": "Google Chrome",
+  // If you need a full command (for flags), uncomment and set the path below:
+  // "liveServer.settings.AdvanceCustomBrowserCmdLine": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+}
