@@ -1,0 +1,22 @@
+/* Root scroll behavior */
+html {
+	scroll-behavior: smooth;
+}
+
+/* Theme colors and utility classes */
+body {
+	color: #161616; /* foreground for body text */
+}
+
+a {
+	color: #161616; /* anchor foreground matches body */
+}
+
+.visually-hidden {
+	display: none !important; /* hide from layout and accessibility tree */
+}
+
+.card-category,
+.section-tagline {
+	color: #D73953; /* accent color for categories and taglines */
+}
