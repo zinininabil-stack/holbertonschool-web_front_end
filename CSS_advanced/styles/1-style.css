@@ -1,0 +1,13 @@
+/* Root scrolling improvements
+	 - scroll-behavior: smooth for smoother programmatic/anchor jumps
+	 - -webkit-overflow-scrolling: touch enables momentum scrolling on iOS
+	 - scrollbar-gutter: stable prevents layout shifts when native scrollbars
+	 - overscroll-behavior-y: contain prevents scroll chaining on some browsers
+*/
+html {
+	scroll-behavior: smooth;
+	-webkit-overflow-scrolling: touch;
+	scrollbar-gutter: stable;
+	overscroll-behavior-y: contain;
+}
+
