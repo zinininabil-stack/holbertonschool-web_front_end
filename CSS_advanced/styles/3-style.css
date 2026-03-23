@@ -5,11 +5,11 @@ html {
 
 /* Theme colors and utility classes */
 body {
-	color: #161616; /* foreground for body text */
+	color: var(--text-color) /* foreground for body text */
 }
 
 a {
-	color: #161616; /* anchor foreground matches body */
+	color: var(--text-color) /* anchor foreground matches body */
 }
 
 .visually-hidden {
@@ -18,5 +18,14 @@ a {
 
 .card-category,
 .section-tagline {
-	color: #D73953; /* accent color for categories and taglines */
+	color: var(--color-primary); /* accent color for categories and taglines */
+}
+
+:root {
+	--color-primary: #d73953
+	--color-black: #090909
+	--color-white: #ffffff
+	--color-light-grey: #f3f3f3
+	--color-dark-grey: #353535
+	--text-color: var(--color-black)
 }
